@@ -1,0 +1,45 @@
+li {
+	font-family: 'Open Sans', sans-serif;
+    display: inline;
+    font-weight: 900;
+    padding: 3px 7px 3px 7px;
+}
+ul {
+	text-align: right;
+	margin-right: 80px;
+}
+img {
+	width: 110px;
+	height: 110px;
+	float: left;
+	margin-left: 80px;
+}
+h1 {
+	clear: both;
+}
+#majica {
+	width: 300px;
+	height: 300px;
+	float: right;
+}
+p {
+	font-size: 20px;
+}
+article {
+	margin: 90px;
+}
+.tabela {
+	margin: -50px 100px 200px 100px;
+}
+table {
+	width: 88%;
+	margin: -200px 100px 150px 90px;
+}
+td {
+	font-size: 20px;
+    text-align: center;
+}
+td {
+	padding: 20px;
+}
+tr:nth-child(even){background-color: #D3D3D3;

@@ -1,0 +1,33 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Forma</title>
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:600" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="stil-domaci-4a.css">
+	<meta charset="UTF-8">
+</head>
+<body>
+	<form>
+		<label for="imejl">Email adresa</label><br>
+		<input type="email" name="imejl" placeholder="example@domain.com" id="imejl"><br><br>
+		<label for="ime">Ime</label><br>
+		<input type="text" name="name" id="ime"><br><br>
+		<label for="prezime">Prezime</label><br>
+		<input type="text" name="LastName" id="prezime"><br><br>
+		<label for="adresa">Adresa</label><br>
+		<input type="text" name="adress" id="adresa"><br><br>
+		<label for="PostBr">Poštanski broj</label><br>
+		<input type="number" name="PostBr" id="PostBr"><br><br>
+		<label for="grad">Grad</label><br>
+		<input type="text" name="city" id="grad"><br><br>
+		<label for="broj">Kontakt telefon</label><br>
+		<input type="number" name="Kontakt telefon" placeholder="(555) 555-5555" id="broj" required><br><br>
+		<label for="PostFin">Odaberi način plaćanja</label><br>
+		<input type="radio" name="opcija" value="PostFin" checked id="PostFin">PostFin<br>
+		<input type="radio" name="opcija" value="Uplatnica">Uplatnica<br>
+		<input type="radio" name="opcija" value="Kartica">Kartica<br><br>
+		<input id="izgled" type="submit" value="Pošalji">
+	</form>
+</body>
+</html>
